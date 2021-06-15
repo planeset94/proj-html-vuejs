@@ -1,4 +1,11 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/img/hero-image.png": "/img/hero-image.png",
+    "/img/hover-button1.png": "/img/hover-button1.png",
+    "/img/hover-button2.png": "/img/hover-button2.png",
+    "/img/hover-card1.png": "/img/hover-card1.png",
+    "/img/hover-card2.png": "/img/hover-card2.png",
+    "/img/hover-card3.png": "/img/hover-card3.png",
+    "/img/hover-card4.png": "/img/hover-card4.png"
 }
