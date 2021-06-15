@@ -9,7 +9,24 @@
 
 var app = new Vue({
   el: '#root',
-  data: {},
+  data: {
+    navLink: [{
+      text: "home",
+      "class": ''
+    }, {
+      text: "about",
+      "class": ''
+    }, {
+      text: "services",
+      "class": ''
+    }, {
+      text: "pricing",
+      "class": ''
+    }, {
+      text: "blog",
+      "class": ''
+    }]
+  },
   methods: {}
 });
 

@@ -23,12 +23,14 @@
                 border-radius: 15px 0 0 15px;
                 background-color: #39c4c666;
                 color: $bt-green;
-                padding:5px 2px 5px 20px;
+                padding: 11px 5px 11px 20px;
             }
 
             span.nav-link a{
                 text-decoration: none;
                 color:$p-color;
+                padding-right: 0.5rem;
+                text-transform: uppercase;
             }
 
 

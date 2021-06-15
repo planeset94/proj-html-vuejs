@@ -48,7 +48,7 @@
             <div class=" header-bottom">
 
                 <section class="jumbotron">
-
+                    <!-- NAV SITE  -->
                     <nav class="my_container ">
                         <div class="nav-bar d-flex justify-content-between  align-items-center">
                             <h5>
@@ -56,9 +56,9 @@
                                 GEN
                             </h5>
                             <span class="nav-link">
-                                <a href="#">HOME</a>
+                                <a v-for="el in navLink" href="#">{{el.text}}</a>
 
-                                <a class="btn _bt-bg_green  btn-lg" href="precos" role="button">GET IN
+                                <a class="btn _bt-bg_green  btn-lg" href="#" role="button">GET IN
                                     TOUCH</a>
                             </span>
 
@@ -66,6 +66,7 @@
 
 
                     </nav>
+                    <!-- /NAV SITE  -->
 
 
                     <div id="jumbo-text" class="text-center">
