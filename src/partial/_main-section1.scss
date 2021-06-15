@@ -3,13 +3,15 @@
 
 .s_one-top{
     background-color:#e3e7df;
+    padding:6rem 0;
 }
 
 div.indicator{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding:4rem 0;
+    
+  
 }
 
 div.info-cube{
@@ -17,6 +19,8 @@ div.info-cube{
     padding: 1.5rem;
     background-color:white;
     border-radius: 10px;
+    margin-bottom: 1rem;
+
 
     span.circle i{ 
         padding: 10px;
@@ -37,7 +41,31 @@ div.info-cube{
 
 }
 
-div.info-cube:nth-of-type(2){
-    margin: 0 1rem;
-}
 
+//BOTTOM PART
+
+.col-text{
+    p{
+        font-size: $p-dim;
+    }
+}
+.corporate-values{
+    display: flex;
+    flex-wrap: wrap;
+}
+.values{
+    width: 50%;
+    padding-right: 1rem;
+i{
+    color: #038483;
+}
+    span{
+     padding-left: 0.5rem;
+     font-weight: bolder;
+     
+    }
+
+    p{
+        font-size: $p-dim;
+    }
+}

@@ -108,13 +108,13 @@ span i {
 
 .s_one-top {
   background-color: #e3e7df;
+  padding: 6rem 0;
 }
 
 div.indicator {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 4rem 0;
 }
 
 div.info-cube {
@@ -122,6 +122,7 @@ div.info-cube {
   padding: 1.5rem;
   background-color: white;
   border-radius: 10px;
+  margin-bottom: 1rem;
 }
 div.info-cube span.circle i {
   padding: 10px;
@@ -136,6 +137,26 @@ div.info-cube p {
   font-size: 0.7rem;
 }
 
-div.info-cube:nth-of-type(2) {
-  margin: 0 1rem;
+.col-text p {
+  font-size: 0.7rem;
+}
+
+.corporate-values {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.values {
+  width: 50%;
+  padding-right: 1rem;
+}
+.values i {
+  color: #038483;
+}
+.values span {
+  padding-left: 0.5rem;
+  font-weight: bolder;
+}
+.values p {
+  font-size: 0.7rem;
 }

@@ -106,17 +106,33 @@
                             <h5 v-text="el.title"></h5>
                             <p v-text="el.par"></p>
                         </div>
-
-
-
-
-
-
                     </div>
                 </div>
                 <div class="s_one-bottom">
                     <div class="my_container">
+                        <div class="row">
+                            <div class="col-6 col-text">
+                                <a class="text-uppercase" href="#">about the network</a>
+                                <h3><span>The</span> Company</h3>
+                                <p>For 12 years we have been providing audit and warrantly, financial advice, risk
+                                    advice, taxes and related services to select clients.
+                                </p>
 
+                                <div class="corporate-values">
+                                    <div v-for="el in corporateValue" class="values">
+                                        <i :class="el.emoticon"></i><span>{{el.title}}</span>
+                                        <p>{{el.par}}</p>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="col-6 side-pic">
+
+                            </div>
+                        </div>
 
 
 

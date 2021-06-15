@@ -54,7 +54,41 @@ const app = new Vue(
                 },
 
 
+
             ],
+
+
+            corporateValue: [
+                {
+                    emoticon: 'fas fa-certificate',
+                    title: 'Tradition',
+                    par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+
+                },
+                {
+                    emoticon: 'fas fa-lock',
+                    title: 'Security',
+                    par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+
+                },
+                {
+                    emoticon: 'far fa-edit',
+                    title: 'Certificate',
+                    par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+
+                },
+                {
+                    emoticon: 'fas fa-graduation-cap',
+                    title: 'Expertise',
+                    par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+
+                },
+
+
+
+            ],
+
+
 
 
 
