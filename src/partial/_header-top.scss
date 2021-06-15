@@ -1,7 +1,7 @@
 div.header-top{
     padding:1rem 0;
     background-color: #4e4d51;
-    color: white;
+    color: $p-color;
     font-weight: lighter;
 }
 
@@ -27,4 +27,6 @@ span i{
 .icons i:nth-of-type(2){
 padding:0 1rem;
 }
+
+
 
