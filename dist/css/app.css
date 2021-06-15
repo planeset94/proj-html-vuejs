@@ -13,14 +13,14 @@
   color: white;
   font-size: 1.1rem;
   margin: 0 0.5rem;
-  background-color: #39c4c6;
+  background-color: #038483;
 }
 
 ._bt-bord_green {
   color: white;
   font-size: 1.1rem;
   margin: 0 0.5rem;
-  border: 2px solid #39c4c6;
+  border: 2px solid #038483;
 }
 
 div.header-top {
@@ -47,7 +47,7 @@ span i {
   padding: 0 1rem;
 }
 
-.jumbotron {
+.jumbo {
   background-image: url(/dist/img/hero-image.png);
   height: 500px;
   width: 100%;
@@ -55,26 +55,27 @@ span i {
   background-size: cover;
   background-position: 0 50%;
 }
-.jumbotron nav {
-  position: absolute;
+.jumbo nav {
   color: white;
-  top: 3%;
-  left: 10%;
+  padding-top: 1rem;
 }
-.jumbotron nav h5 > span {
+.jumbo nav h5 > span {
   border-radius: 15px 0 0 15px;
   background-color: #39c4c666;
   color: #39c4c6;
   padding: 11px 5px 11px 20px;
 }
-.jumbotron nav span.nav-link a {
+.jumbo nav span.nav-link a {
   text-decoration: none;
   color: #e3e7df;
   padding-right: 0.5rem;
   text-transform: uppercase;
 }
+.jumbo nav span.nav-link a:last-of-type {
+  padding-right: 1rem;
+}
 
-.jumbotron::before {
+.tendina {
   content: "";
   width: 100%;
   height: 100%;
@@ -101,6 +102,40 @@ span i {
 }
 #jumbo-text p:first-of-type {
   width: 40%;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #e3e7df;
+}
+
+.s_one-top {
+  background-color: #e3e7df;
+}
+
+div.indicator {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 4rem 0;
+}
+
+div.info-cube {
+  width: calc(100%/3 - 2rem/3);
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+}
+div.info-cube span.circle i {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #e3e7df;
+}
+div.info-cube h5 {
+  padding: 1rem 0;
+  margin-bottom: 0;
+}
+div.info-cube p {
+  font-size: 0.7rem;
+}
+
+div.info-cube:nth-of-type(2) {
+  margin: 0 1rem;
 }

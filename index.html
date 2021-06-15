@@ -18,6 +18,8 @@
     <div id="root">
         <!-- Header site  -->
         <header>
+            <!-- TOP HEADER  -->
+
             <div class="header-top">
                 <div class="my_container">
 
@@ -44,28 +46,29 @@
                 </div>
 
             </div>
+            <!-- /TOP HEADER  -->
 
+            <!-- BOTTOM HEADER + NAV  -->
             <div class=" header-bottom">
 
-                <section class="jumbotron">
-                    <!-- NAV SITE  -->
-                    <nav class="my_container ">
-                        <div class="nav-bar d-flex justify-content-between  align-items-center">
-                            <h5>
-                                <span class="">NEX</span>
-                                GEN
-                            </h5>
-                            <span class="nav-link">
-                                <a v-for="el in navLink" href="#">{{el.text}}</a>
+                <section class="jumbo">
+                    <div class="tendina">
+                        <!-- NAV SITE  -->
+                        <nav class="my_container ">
+                            <div class="nav-bar d-flex justify-content-between  align-items-center">
+                                <h5>
+                                    <span class="">NEX</span>
+                                    GEN
+                                </h5>
+                                <span class="nav-link">
+                                    <a v-for="el in navLink" href="#">{{el.text}}</a>
 
-                                <a class="btn _bt-bg_green  btn-lg" href="#" role="button">GET IN
-                                    TOUCH</a>
-                            </span>
-
-                        </div>
-
-
-                    </nav>
+                                    <a class="btn _bt-bg_green  btn-lg" href="#" role="button">GET IN
+                                        TOUCH</a>
+                                </span>
+                            </div>
+                        </nav>
+                    </div>
                     <!-- /NAV SITE  -->
 
 
@@ -88,59 +91,31 @@
 
 
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- <div class="header-bottom">
-            <div class="jumbo">
-                <div class="header-container">
-
-                    <nav>
-
-                    </nav>
-
-
-                    <div class="lead">
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
- -->
-
-
+            <!-- /BOTTOM HEADER + NAV  -->
         </header>
         <!-- /Header site  -->
 
+        <!-- MAIN SITE  -->
+        <main>
+            <section id="s_one">
+                <div class="s_one-top">
+                    <div class="my_container indicator">
+
+                        <div v-for="el in keyIndicators" class="info-cube">
+                            <span class="circle"><i :class="el.emoticon"></i></span>
+                            <h5 v-text="el.title"></h5>
+                            <p v-text="el.par"></p>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+                <div class="s_one-bottom">
+                    <div class="my_container">
 
 
 
@@ -149,6 +124,56 @@
 
 
 
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section id="s_two">
+                <div class="s_two-top">
+                    <div class="my_container">
+
+                    </div>
+                    <div class="s_two-bottom"></div>
+                </div>
+            </section>
+
+
+            <section id="s_third">
+                <div class="my_container">
+                    <div class="s_third-top"></div>
+                    <div class="s_third-bottom"></div>
+                </div>
+            </section>
+
+
+
+            <section id="s_fourth">
+                <div class="my_container">
+                    <div class="s_fourth-top"></div>
+                    <div class="s_fourth-bottom"></div>
+                </div>
+            </section>
+
+
+
+            <section id="s_fifth">
+                <div class="my_container">
+                    <div class="s_fifth-top"></div>
+                    <div class="s_fifth-bottom"></div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+        </main>
+        <!-- /MAIN SITE  -->
 
 
 
