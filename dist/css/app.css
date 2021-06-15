@@ -4,18 +4,30 @@
   padding: 0;
 }
 
+.my_container {
+  width: 80%;
+  margin: auto;
+}
+
+._bt-bg_green {
+  color: white;
+  font-size: 1.1rem;
+  margin: 0 0.5rem;
+  background-color: #39c4c6;
+}
+
+._bt-bord_green {
+  color: white;
+  font-size: 1.1rem;
+  margin: 0 0.5rem;
+  border: 2px solid #39c4c6;
+}
+
 div.header-top {
   padding: 1rem 0;
   background-color: #4e4d51;
   color: #e3e7df;
   font-weight: lighter;
-}
-
-div.header-container {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
 }
 
 .email {
@@ -43,12 +55,38 @@ span i {
   background-size: cover;
   background-position: 0 50%;
 }
+.jumbotron nav {
+  position: absolute;
+  color: white;
+  top: 3%;
+  left: 10%;
+}
+.jumbotron nav h5 > span {
+  border-radius: 15px 0 0 15px;
+  background-color: #39c4c666;
+  color: #39c4c6;
+  padding: 5px 2px 5px 20px;
+}
+.jumbotron nav span.nav-link a {
+  text-decoration: none;
+  color: #e3e7df;
+}
+
+.jumbotron::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.603);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  position: relative;
+}
 
 #jumbo-text {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.363);
-  display: block;
   position: absolute;
   left: 50%;
   top: 50%;
