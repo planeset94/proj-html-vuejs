@@ -1,0 +1,23 @@
+@mixin shadow-text {
+    
+    h3 span{
+        background-color: $seaNym;
+        color: $bt-green;
+        padding: 0.3rem;
+        font-weight: bold;
+    }
+
+}
+
+
+@mixin pageLink {
+    a{
+        color: $bt-green;
+        text-decoration: none;
+        font-size: 8px;
+    }  
+
+
+}
+
+

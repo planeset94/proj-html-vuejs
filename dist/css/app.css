@@ -137,26 +137,41 @@ div.info-cube p {
   font-size: 0.7rem;
 }
 
+.col-text {
+  padding: 3rem 0 4rem 0;
+}
+.col-text a {
+  color: #038483;
+  text-decoration: none;
+  font-size: 8px;
+}
+.col-text h3 span {
+  background-color: #e3e7df;
+  color: #038483;
+  padding: 0.3rem;
+  font-weight: bold;
+}
+.col-text h3 {
+  padding: 1rem 0;
+}
 .col-text p {
   font-size: 0.7rem;
 }
-
-.corporate-values {
+.col-text .corporate-values {
   display: flex;
   flex-wrap: wrap;
 }
-
-.values {
+.col-text .values {
   width: 50%;
   padding-right: 1rem;
 }
-.values i {
+.col-text .values i {
   color: #038483;
 }
-.values span {
+.col-text .values span {
   padding-left: 0.5rem;
   font-weight: bolder;
 }
-.values p {
+.col-text .values p {
   font-size: 0.7rem;
 }

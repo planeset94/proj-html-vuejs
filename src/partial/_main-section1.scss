@@ -26,7 +26,7 @@ div.info-cube{
         padding: 10px;
         // margin: 2rem 0;
         border-radius: 50%;
-        background-color: #e3e7df;
+        background-color:$seaNym;
     }
 
     h5{
@@ -45,27 +45,41 @@ div.info-cube{
 //BOTTOM PART
 
 .col-text{
+padding: 3rem 0 4rem 0;
+ @include pageLink;
+ @include shadow-text;
+
+
+   
+    h3{
+        padding: 1rem 0;
+    }       
+
     p{
         font-size: $p-dim;
     }
-}
-.corporate-values{
-    display: flex;
-    flex-wrap: wrap;
-}
-.values{
-    width: 50%;
-    padding-right: 1rem;
-i{
-    color: #038483;
-}
+
+    .corporate-values{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .values{
+        width: 50%;
+        padding-right: 1rem;
+    i{
+        color: $bt-green;
+    }
     span{
-     padding-left: 0.5rem;
-     font-weight: bolder;
-     
+    padding-left: 0.5rem;
+    font-weight: bolder;
+    
     }
 
     p{
         font-size: $p-dim;
     }
+    
+   }
+
+
 }
