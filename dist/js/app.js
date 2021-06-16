@@ -104,6 +104,10 @@ var app = new Vue({
     //     path: 'news-5',
     //     par: 'Increasing creativity is possible for everyone',
     // },
+    // {
+    //     path: 'news-5',
+    //     par: 'Increasing creativity is possible for everyone',
+    // },
     ]
   },
   methods: {}
