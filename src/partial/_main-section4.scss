@@ -1,6 +1,5 @@
-.s_fourth-top{
-    padding:4rem 0;
-}
+            // CORPORATE NEWS 
+
 .news{
     
     @include pageLink;
@@ -87,8 +86,6 @@
     }
 
 
-  
-
         img{
           height: 100%;
           width: 100%;
@@ -96,17 +93,29 @@
           
         }
 
+    }
+
+
+}
+
+
+            // NEWS LETTER 
+
+    .s_fourth-bottom{
+
+        height: 310px;
+        background-image: url(../../dist/img/bg-1.jpg);
+        background-size: cover;
+        background-position: center;
+
+
+
+
+
+
+
+
 
 
 
     }
-
-
-
-
-
-
-
-
-
-}

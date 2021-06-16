@@ -300,10 +300,6 @@ div.info-cube p {
   width: 100%;
 }
 
-.s_fourth-top {
-  padding: 4rem 0;
-}
-
 .news a {
   color: #038483;
   text-decoration: none;
@@ -372,4 +368,11 @@ div.info-cube p {
   height: 100%;
   width: 100%;
   border-radius: 10px;
+}
+
+.s_fourth-bottom {
+  height: 310px;
+  background-image: url(../../dist/img/bg-1.jpg);
+  background-size: cover;
+  background-position: center;
 }
