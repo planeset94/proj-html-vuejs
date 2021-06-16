@@ -1,0 +1,59 @@
+#s_two{
+background-color: $shark;
+
+    .service-title{
+        border: 1px solid red;
+        padding-top: 4rem;
+        @include pageLink;
+    
+        h3{
+            color: white;
+            margin-bottom: 0;
+        }
+
+
+        .span-par{
+
+
+            p{
+            color: $p-color;
+            font-size:$p-dim;
+            padding: 1.5rem 0;
+            margin-bottom: 0; 
+            width: 80%; 
+            }
+
+
+        }
+
+        .span-bt{
+
+            flex-basis: 20% ;
+            font-weight: bolder;
+            
+            a{
+                color: white;
+            }
+
+
+        }
+
+        
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

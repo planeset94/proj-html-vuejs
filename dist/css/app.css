@@ -154,6 +154,7 @@ div.info-cube p {
 }
 .col-text h3 {
   padding: 1rem 0;
+  font-weight: bold;
 }
 .col-text p {
   font-size: 0.7rem;
@@ -186,4 +187,36 @@ div.info-cube p {
      object-fit: cover;
   width: 125%;
   height: 100%;
+}
+
+#s_two {
+  background-color: #1e2223;
+}
+#s_two .service-title {
+  border: 1px solid red;
+  padding-top: 4rem;
+}
+#s_two .service-title a {
+  color: #038483;
+  text-decoration: none;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+#s_two .service-title h3 {
+  color: white;
+  margin-bottom: 0;
+}
+#s_two .service-title .span-par p {
+  color: #e3e7df;
+  font-size: 0.7rem;
+  padding: 1.5rem 0;
+  margin-bottom: 0;
+  width: 80%;
+}
+#s_two .service-title .span-bt {
+  flex-basis: 20%;
+  font-weight: bolder;
+}
+#s_two .service-title .span-bt a {
+  color: white;
 }
