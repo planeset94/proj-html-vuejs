@@ -175,3 +175,7 @@ div.info-cube p {
 .col-text .values p {
   font-size: 0.7rem;
 }
+
+.col-pic {
+  background-image: url(/dist/img/);
+}
