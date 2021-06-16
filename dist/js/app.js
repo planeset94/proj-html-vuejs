@@ -57,27 +57,33 @@ var app = new Vue({
       par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     }],
     corporateService: [{
-      emoticon: '',
+      emoticon: 'grid_view',
+      rule: 'material-icons',
       title: 'Audit & Assurance',
       par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     }, {
-      emoticon: '',
+      emoticon: 'business_center',
+      rule: '',
       title: 'Financial Advisory',
       par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     }, {
-      emoticon: 'Analytics & M&A',
-      title: 'Audit & Assurance',
+      emoticon: 'leaderboard',
+      rule: '',
+      title: 'Analytics & M&A',
       par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     }, {
-      emoticon: '',
+      emoticon: 'flight',
+      rule: 'rotation',
       title: 'Middle Marketing',
       par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     }, {
-      emoticon: '',
+      emoticon: 'public',
+      rule: '',
       title: 'Legal Consulting',
       par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     }, {
-      emoticon: '',
+      emoticon: 'inbox',
+      rule: '',
       title: 'Regulatory Risk',
       par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     }]

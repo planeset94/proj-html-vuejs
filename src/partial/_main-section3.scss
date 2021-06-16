@@ -1,0 +1,55 @@
+#s_third{
+background-color: $seaNym;
+
+.pricing{
+    padding-top:75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    h3{
+        padding:1.5rem 0;
+        margin-bottom: 0;
+    }
+
+
+
+
+
+    @include pageLink;
+    @include shadow-text;
+
+    p{
+        font-size: $p-dim;
+        width: 80%;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+}

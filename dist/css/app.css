@@ -23,6 +23,10 @@
   border: 1px solid #038483;
 }
 
+.rotation {
+  transform: rotate(45deg);
+}
+
 div.header-top {
   padding: 1rem 0;
   background-color: #4e4d51;
@@ -193,7 +197,6 @@ div.info-cube p {
   background-color: #1e2223;
 }
 #s_two .service-title {
-  border: 1px solid red;
   padding-top: 4rem;
 }
 #s_two .service-title a {
@@ -205,6 +208,7 @@ div.info-cube p {
 #s_two .service-title h3 {
   color: white;
   margin-bottom: 0;
+  padding-top: 1.5rem;
 }
 #s_two .service-title .span-par p {
   color: #e3e7df;
@@ -225,16 +229,21 @@ div.info-cube p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 5rem;
 }
 #s_two .corporate-service .service {
   color: white;
   background-color: #232727;
   padding: 2rem;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
   width: calc(100% /3 - 1rem);
+}
+#s_two .corporate-service .service i {
+  color: #038483;
 }
 #s_two .corporate-service .service h5 {
   margin-bottom: 0;
+  padding: 0.5rem 0;
 }
 #s_two .corporate-service .service p {
   font-size: 0.7rem;
@@ -244,4 +253,35 @@ div.info-cube p {
 #s_two .corporate-service .service span a {
   font-size: 0.55rem;
   margin: 0;
+}
+
+#s_third {
+  background-color: #e3e7df;
+}
+#s_third .pricing {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#s_third .pricing h3 {
+  padding: 1.5rem 0;
+  margin-bottom: 0;
+}
+#s_third .pricing a {
+  color: #038483;
+  text-decoration: none;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+#s_third .pricing h3 span {
+  background-color: #e3e7df;
+  color: #038483;
+  padding: 0.3rem;
+  font-weight: bold;
+}
+#s_third .pricing p {
+  font-size: 0.7rem;
+  width: 80%;
+  text-align: center;
 }
