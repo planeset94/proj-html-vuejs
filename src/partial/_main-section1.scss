@@ -16,7 +16,7 @@ div.indicator{
 
 div.info-cube{
     width: calc(100%/3 - 1rem);
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 2rem;
     background-color:white;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -35,7 +35,7 @@ div.info-cube{
 
     p{
         font-size: $p-dim;
-        width: 80%;
+       
     }
 
 
@@ -45,7 +45,7 @@ div.info-cube{
 //BOTTOM PART
 
 .col-text{
-padding: 3rem 0 4rem 0;
+padding: 7rem 0 4rem 0;
  @include pageLink;
  @include shadow-text;
 
@@ -57,6 +57,7 @@ padding: 3rem 0 4rem 0;
 
     p{
         font-size: $p-dim;
+        // width: 80%;
     }
 
     .corporate-values{
@@ -77,6 +78,7 @@ padding: 3rem 0 4rem 0;
 
     p{
         font-size: $p-dim;
+        padding: 1rem 0;
     }
     
    }
@@ -89,11 +91,14 @@ padding: 3rem 0 4rem 0;
 
 
 .col-pic{
+    height: 600px;
  
     img{
         object-fit: cover;
         width: 125%;
+        height: 100%;
     }
+    
 
 
 

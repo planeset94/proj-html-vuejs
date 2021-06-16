@@ -119,7 +119,7 @@ div.indicator {
 
 div.info-cube {
   width: calc(100%/3 - 1rem);
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
   background-color: white;
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -135,16 +135,16 @@ div.info-cube h5 {
 }
 div.info-cube p {
   font-size: 0.7rem;
-  width: 80%;
 }
 
 .col-text {
-  padding: 3rem 0 4rem 0;
+  padding: 7rem 0 4rem 0;
 }
 .col-text a {
   color: #038483;
   text-decoration: none;
   font-size: 8px;
+  text-transform: uppercase;
 }
 .col-text h3 span {
   background-color: #e3e7df;
@@ -175,10 +175,15 @@ div.info-cube p {
 }
 .col-text .values p {
   font-size: 0.7rem;
+  padding: 1rem 0;
 }
 
+.col-pic {
+  height: 600px;
+}
 .col-pic img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 125%;
+  height: 100%;
 }
