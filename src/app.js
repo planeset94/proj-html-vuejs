@@ -134,6 +134,31 @@ const app = new Vue(
 
                 },
 
+            ],
+
+
+            corporateNews: [
+
+                {
+                    path: 'news-1',
+                    par: 'Increasing creativity is possible for everyone',
+                },
+                {
+                    path: 'news-2',
+                    par: 'Beacause market research is part of the business plan',
+                },
+                {
+                    path: 'news-3',
+                    par: 'Working from home is now a trend',
+                },
+                // {
+                //     path: 'news-4',
+                //     par: 'Increasing creativity is possible for everyone',
+                // },
+                // {
+                //     path: 'news-5',
+                //     par: 'Increasing creativity is possible for everyone',
+                // },
 
 
 

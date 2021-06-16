@@ -213,12 +213,32 @@
                             </div>
                         </div>
 
+                        <div class="photo_news-container">
+                            <div v-for="el in corporateNews" class="photo-news">
+                                <img :src=" '/dist/img/' + el.path + '.jpg'    ">
+                                <div class="tendina-news">
+                                    <p v-text="el.par"></p>
+                                </div>
+                            </div>
 
 
 
 
 
-                        <div class="s_fourth-bottom"></div>
+
+
+
+                        </div>
+
+
+
+
+
+                        <div class="s_fourth-bottom">
+                            <div class="my_container">
+
+                            </div>
+                        </div>
                     </div>
             </section>
             <!-- /SECTION 4   -->
