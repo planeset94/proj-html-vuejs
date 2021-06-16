@@ -1,0 +1,45 @@
+.news{
+    padding-top: 4rem;
+    @include pageLink;
+    @include shadow-text($shadow1);
+
+    
+
+    h3{
+      
+        margin-bottom: 0;
+        padding-top:1.5rem;
+        font-weight: bolder;
+    }
+
+
+    .span-par{
+
+
+        p{
+        color: $p-color2;
+        font-size:$p-dim;
+        padding: 1.5rem 0;
+        margin-bottom: 0; 
+        }
+
+
+    }
+
+    .span-bt{
+        flex-basis: 20% ;
+        
+        
+        a{
+            color: white;
+            font-weight: normal;
+            font-size: 0.7rem;
+        }
+        
+
+    }
+
+    
+
+
+}
