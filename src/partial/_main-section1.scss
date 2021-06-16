@@ -31,10 +31,12 @@ div.info-cube{
     h5{
      padding:1rem 0;
      margin-bottom: 0;
+     font-weight: bolder;
     }
 
     p{
         font-size: $p-dim;
+        color: $p-color2;
        
     }
 
@@ -47,7 +49,7 @@ div.info-cube{
 .col-text{
 padding: 7rem 0 4rem 0;
  @include pageLink;
- @include shadow-text;
+ @include shadow-text(#DAECED);
 
 
    
@@ -58,6 +60,7 @@ padding: 7rem 0 4rem 0;
 
     p{
         font-size: $p-dim;
+        color: $p-color2;
         // width: 80%;
     }
 
@@ -80,6 +83,7 @@ padding: 7rem 0 4rem 0;
     p{
         font-size: $p-dim;
         padding: 1rem 0;
+        color: $p-color2;
     }
     
    }

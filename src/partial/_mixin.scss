@@ -1,7 +1,7 @@
-@mixin shadow-text {
+@mixin shadow-text ($back){
     
     h3 span{
-        background-color: $seaNym;
+        background-color: $back;
         color: $bt-green;
         padding: 0.3rem;
         font-weight: bold;
@@ -16,6 +16,7 @@
         text-decoration: none;
         font-size: 8px;
         text-transform: uppercase;
+        font-weight: bolder;
     }  
 
 

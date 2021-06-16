@@ -1,8 +1,8 @@
 #s_third{
-background-color: $seaNym;
+background-color: #eef4ed;
 
 .pricing{
-    padding-top:75px;
+    padding:80px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,15 +18,22 @@ background-color: $seaNym;
 
 
     @include pageLink;
-    @include shadow-text;
+    @include shadow-text(#CCE3DE);
 
     p{
         font-size: $p-dim;
+        color: $p-color2;
         width: 80%;
         text-align: center;
+        padding-bottom: 30px;
+        margin-bottom: 0;
     }
 
 
+    img{
+        height: 100%;
+        width: 100%;
+    }
 
 
 
