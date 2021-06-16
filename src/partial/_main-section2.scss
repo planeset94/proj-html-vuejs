@@ -1,6 +1,7 @@
 #s_two{
 background-color: $shark;
 
+                                    // SERVICE-TITLE 
     .service-title{
         border: 1px solid red;
         padding-top: 4rem;
@@ -30,6 +31,7 @@ background-color: $shark;
 
             flex-basis: 20% ;
             font-weight: bolder;
+            font-size: 0.55rem;
             
             a{
                 color: white;
@@ -43,6 +45,38 @@ background-color: $shark;
 
     }
 
+                                    // CORPORATE SERVICE 
+
+    .corporate-service{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+        & .service{
+            color: white;
+            background-color: #232727;
+            padding: 2rem;
+            margin: 1rem 0;
+            width: calc(100% /3 - 1rem);
+
+            h5{
+                margin-bottom: 0;
+            }
+
+            p{
+                font-size: $p-dim;
+                padding: 1rem 0;
+                margin-bottom: 0;
+            }
+
+            span a{
+                font-size: 0.55rem;
+                margin:0;
+            }
+
+        }
 
 
 
@@ -52,8 +86,7 @@ background-color: $shark;
 
 
 
-
-
+    }
 
 
 }

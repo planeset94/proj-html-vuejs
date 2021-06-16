@@ -55,6 +55,31 @@ var app = new Vue({
       emoticon: 'fas fa-graduation-cap',
       title: 'Expertise',
       par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    }],
+    corporateService: [{
+      emoticon: '',
+      title: 'Audit & Assurance',
+      par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    }, {
+      emoticon: '',
+      title: 'Financial Advisory',
+      par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    }, {
+      emoticon: 'Analytics & M&A',
+      title: 'Audit & Assurance',
+      par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    }, {
+      emoticon: '',
+      title: 'Middle Marketing',
+      par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    }, {
+      emoticon: '',
+      title: 'Legal Consulting',
+      par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    }, {
+      emoticon: '',
+      title: 'Regulatory Risk',
+      par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     }]
   },
   methods: {}

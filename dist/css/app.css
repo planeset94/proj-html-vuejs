@@ -20,7 +20,7 @@
   color: white;
   font-size: 1.1rem;
   margin: 0 0.5rem;
-  border: 2px solid #038483;
+  border: 1px solid #038483;
 }
 
 div.header-top {
@@ -216,7 +216,32 @@ div.info-cube p {
 #s_two .service-title .span-bt {
   flex-basis: 20%;
   font-weight: bolder;
+  font-size: 0.55rem;
 }
 #s_two .service-title .span-bt a {
   color: white;
+}
+#s_two .corporate-service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#s_two .corporate-service .service {
+  color: white;
+  background-color: #232727;
+  padding: 2rem;
+  margin: 1rem 0;
+  width: calc(100% /3 - 1rem);
+}
+#s_two .corporate-service .service h5 {
+  margin-bottom: 0;
+}
+#s_two .corporate-service .service p {
+  font-size: 0.7rem;
+  padding: 1rem 0;
+  margin-bottom: 0;
+}
+#s_two .corporate-service .service span a {
+  font-size: 0.55rem;
+  margin: 0;
 }
