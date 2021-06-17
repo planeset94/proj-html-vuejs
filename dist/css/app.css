@@ -556,52 +556,72 @@ div.info-cube p {
 footer {
   background-color: #1e2223;
   padding: 5rem 0;
+  position: relative;
 }
-footer .carta {
-  width: calc(100%/4 -1rem);
-  margin-right: 1rem;
+footer div.flex-container .general-info {
+  flex-basis: 30%;
 }
-footer .general-info h5 > span {
+footer div.flex-container .general-info h5 > span {
   border-radius: 15px 0 0 15px;
   background-color: #39c4c666;
   color: #39c4c6;
   padding: 11px 5px 11px 20px;
 }
-footer .general-info h5 {
+footer div.flex-container .general-info h5 {
   color: #e3e7df;
 }
-footer .general-info p {
+footer div.flex-container .general-info p {
   font-size: 0.8rem;
   color: #e3e7df;
   margin-bottom: 0;
   width: 80%;
   padding: 20px 0;
 }
-footer .general-info div {
+footer div.flex-container .general-info div {
   color: #e3e7df;
   font-size: 0.8rem;
   margin-top: 10px;
 }
-footer .general-info i {
+footer div.flex-container .general-info i {
   color: #e3e7df;
   margin: 0 0.5rem 0.5rem 0;
   vertical-align: middle;
   text-align: center;
 }
-footer .general-info .btn {
+footer div.flex-container .general-info .btn {
   color: #038483;
   margin-top: 15px;
   font-size: 1rem;
 }
-footer .various {
+footer div.flex-container .various h5 {
+  color: white;
+  margin-bottom: 1rem;
+}
+footer div.flex-container .various .info-container {
   color: #e3e7df;
 }
-footer .various .info-container ul {
+footer div.flex-container .various .info-container ul {
   padding: 0;
 }
-footer .various .info-container ul li {
+footer div.flex-container .various .info-container li {
   list-style: none;
+  padding-bottom: 5px;
 }
-footer .various .info-container ul p {
+footer div.flex-container .various .info-container p {
   margin: 0;
+}
+
+.carta {
+  border-radius: 10px;
+  background-color: #d3d3d31c;
+  padding: 2rem;
+  margin-right: 1rem;
+}
+
+.par-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  color: #e3e7df;
+  font-size: 0.7rem;
 }
