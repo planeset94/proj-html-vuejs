@@ -310,10 +310,10 @@
 
         <!-- FOOTER SITE  -->
         <footer>
-            <div class="my_container">
-                <div class="general-info">
+            <div class="my_container d-flex flex-nowrap justify-content-center ">
+                <div class=" carta general-info">
                     <h5>
-                        <span class="">NEX</span>
+                        <span class="nex">NEX</span>
                         GEN
                     </h5>
                     <p>
@@ -329,7 +329,7 @@
                 </div>
 
 
-                <div class="various" v-for="(el,index) in generalInfo">
+                <div class=" carta various" v-for="(el,index) in generalInfo">
                     <div class="info-container">
                         <h5>
                             {{el.title}}
@@ -338,7 +338,8 @@
                         <ul>
                             <li v-for="alpha in generalInfo[index].info">
                                 <i class="fas fa-angle-right"></i>
-                                {{alpha}}
+                                <span>{{alpha}}</span>
+
 
 
                             </li>

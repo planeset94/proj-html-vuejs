@@ -555,27 +555,53 @@ div.info-cube p {
 
 footer {
   background-color: #1e2223;
+  padding: 5rem 0;
 }
-footer p {
+footer .carta {
+  width: calc(100%/4 -1rem);
+  margin-right: 1rem;
+}
+footer .general-info h5 > span {
+  border-radius: 15px 0 0 15px;
+  background-color: #39c4c666;
+  color: #39c4c6;
+  padding: 11px 5px 11px 20px;
+}
+footer .general-info h5 {
+  color: #e3e7df;
+}
+footer .general-info p {
   font-size: 0.8rem;
   color: #e3e7df;
   margin-bottom: 0;
   width: 80%;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
-footer div {
+footer .general-info div {
   color: #e3e7df;
   font-size: 0.8rem;
   margin-top: 10px;
 }
-footer i {
+footer .general-info i {
   color: #e3e7df;
   margin: 0 0.5rem 0.5rem 0;
   vertical-align: middle;
   text-align: center;
 }
-footer .btn {
+footer .general-info .btn {
   color: #038483;
   margin-top: 15px;
   font-size: 1rem;
+}
+footer .various {
+  color: #e3e7df;
+}
+footer .various .info-container ul {
+  padding: 0;
+}
+footer .various .info-container ul li {
+  list-style: none;
+}
+footer .various .info-container ul p {
+  margin: 0;
 }

@@ -1,36 +1,115 @@
 footer{
     background-color: $shark;
+    padding:5rem 0;
 
 
-    p{
-        font-size: $p-med-dim;
-        color: $p-color;
-        margin-bottom: 0;
-        width: 80%;
-        padding-bottom: 20px;
-    }
 
+    .carta {
 
-    div{
-        color: $p-color; 
-    font-size: $p-med-dim;
-    margin-top: 10px;
-    }
-    i{
-
+        width: calc(100%/4 -1rem);
+    margin-right: 1rem;
         
-        color: $p-color;
-        margin: 0 0.5rem 0.5rem 0;
-    
-        vertical-align: middle;
-        text-align: center;
+        
+        
+    }
+
+    .general-info{
+        h5>span{
+            border-radius: 15px 0 0 15px;
+            background-color: #39c4c666;
+            color: $nex-color;
+            padding: 11px 5px 11px 20px;
+        }
+
+       h5{
+            color:$p-color;
+        }
+  
+
+        p{
+            font-size: $p-med-dim;
+            color: $p-color;
+            margin-bottom: 0;
+            width: 80%;
+            padding: 20px 0;
+        }
+
+
+        div{
+            color: $p-color; 
+        font-size: $p-med-dim;
+        margin-top: 10px;
+        }
+        i{
+
+            
+            color: $p-color;
+            margin: 0 0.5rem 0.5rem 0;
+        
+            vertical-align: middle;
+            text-align: center;
+
+        }
+
+        .btn{
+            color: $bt-green;
+            margin-top: 15px;
+            font-size: 1rem;
+        }
+
 
     }
 
-    .btn{
-        color: $bt-green;
-        margin-top: 15px;
-        font-size: 1rem;
+
+    .various{
+     
+
+
+    color: $p-color;
+
+        .info-container{
+
+     
+     
+           
+        ul{
+            padding:0;
+        
+          li{
+                list-style: none;
+           
+               
+            }
+            
+            p{
+                margin:0;
+            }
+
+
+
+        }
+
+
+
+        }
+
+
+
+
+
+
     }
+
+
+
+
+
+
+
+
+
+
+
 
 }
+
