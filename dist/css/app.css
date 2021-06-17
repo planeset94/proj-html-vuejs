@@ -556,29 +556,25 @@ div.info-cube p {
 footer {
   background-color: #1e2223;
 }
-
-p {
+footer p {
   font-size: 0.8rem;
   color: #e3e7df;
   margin-bottom: 0;
   width: 80%;
   padding-bottom: 20px;
 }
-
-div {
+footer div {
   color: #e3e7df;
   font-size: 0.8rem;
   margin-top: 10px;
 }
-
-i {
+footer i {
   color: #e3e7df;
   margin: 0 0.5rem 0.5rem 0;
   vertical-align: middle;
   text-align: center;
 }
-
-.btn {
+footer .btn {
   color: #038483;
   margin-top: 15px;
   font-size: 1rem;

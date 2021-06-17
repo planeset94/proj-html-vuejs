@@ -1,34 +1,36 @@
 footer{
     background-color: $shark;
-}
 
-p{
+
+    p{
+        font-size: $p-med-dim;
+        color: $p-color;
+        margin-bottom: 0;
+        width: 80%;
+        padding-bottom: 20px;
+    }
+
+
+    div{
+        color: $p-color; 
     font-size: $p-med-dim;
-    color: $p-color;
-    margin-bottom: 0;
-    width: 80%;
-    padding-bottom: 20px;
-}
+    margin-top: 10px;
+    }
+    i{
 
-
-div{
-    color: $p-color; 
-   font-size: $p-med-dim;
-   margin-top: 10px;
-}
-i{
-
+        
+        color: $p-color;
+        margin: 0 0.5rem 0.5rem 0;
     
-    color: $p-color;
-    margin: 0 0.5rem 0.5rem 0;
- 
-    vertical-align: middle;
-    text-align: center;
+        vertical-align: middle;
+        text-align: center;
 
-}
+    }
 
-.btn{
-    color: $bt-green;
-    margin-top: 15px;
-    font-size: 1rem;
+    .btn{
+        color: $bt-green;
+        margin-top: 15px;
+        font-size: 1rem;
+    }
+
 }
