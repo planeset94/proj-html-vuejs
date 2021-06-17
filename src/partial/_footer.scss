@@ -3,6 +3,8 @@ footer{
     padding:5rem 0;
 
 
+div.flex-container{
+
 
     .carta {
 
@@ -63,15 +65,9 @@ footer{
 
     .various{
      
-
-
-    color: $p-color;
-
-        .info-container{
+        color: $p-color;
 
      
-     
-           
         ul{
             padding:0;
         
@@ -101,15 +97,13 @@ footer{
     }
 
 
-
-
-
-
-
-
+}
 
 
 
 
 }
 
+p{
+    color: white;
+}
