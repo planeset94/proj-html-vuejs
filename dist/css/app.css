@@ -552,3 +552,34 @@ div.info-cube p {
   margin-top: 15px;
   font-size: 1rem;
 }
+
+footer {
+  background-color: #1e2223;
+}
+
+p {
+  font-size: 0.8rem;
+  color: #e3e7df;
+  margin-bottom: 0;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+div {
+  color: #e3e7df;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+i {
+  color: #e3e7df;
+  margin: 0 0.5rem 0.5rem 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn {
+  color: #038483;
+  margin-top: 15px;
+  font-size: 1rem;
+}

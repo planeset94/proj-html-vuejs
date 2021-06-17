@@ -171,7 +171,63 @@ const app = new Vue(
             ],
 
 
+            generalInfo: [
 
+                {
+                    title: 'About',
+                    info: [
+                        'the company',
+                        'Istitutional',
+                        'Social & Events',
+                        'Innovation',
+                        'Enviroment',
+                        'Technology',
+
+                    ],
+
+                },
+
+                {
+                    title: 'Services',
+                    info: [
+                        'Audit & Assurance',
+                        'Financial Advisory',
+                        'Analytics M&A',
+                        'Middle Marketing',
+                        'Legal Consulting',
+                        'Regulatory Risk',
+
+                    ],
+
+                },
+
+                {
+                    title: 'Support',
+                    info: [
+                        'Responsability',
+                        'Terms of Use',
+                        'About Cockies',
+                        'Privacy Policy',
+                        'Accessibility',
+                        'Information',
+
+                    ],
+
+                },
+
+
+
+
+
+
+
+
+
+
+
+
+
+            ],
 
 
 

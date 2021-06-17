@@ -286,12 +286,12 @@
                             <h6>Example Inc.</h6>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <p>Praesent diam lacus, diapibus sed imperdiet consectetur.</p>
-                            <div><i class="fas fa-phone-alt"></i> +1(305) 1234-5678</div>
+                            <div><i class="fas fa-phone-alt"></i>+1(305) 1234-5678</div>
 
                             <div><i class="fas fa-envelope"></i>hello@example.com</div>
                             <div><i class="fas fa-map-marker-alt"></i>Main Avenue,987</div>
 
-                            <span><a class="btn _bt-bord_green  btn-lg" href="#" role="button">VIEW MAP</a></span>
+                            <span><a class="btn _bt-bord_green  btn-lg" href="#" role="button">GET IN TOUCH</a></span>
 
 
 
@@ -305,17 +305,54 @@
                 </div>
             </section>
             <!-- SECTION 5   -->
-
-
-
-
-
-
-
-
         </main>
         <!-- /MAIN SITE  -->
 
+        <!-- FOOTER SITE  -->
+        <footer>
+            <div class="my_container">
+                <div class="general-info">
+                    <h5>
+                        <span class="">NEX</span>
+                        GEN
+                    </h5>
+                    <p>
+                        A Functional HTML template for Corporate & Business.
+                    </p>
+                    <div><i class="fas fa-phone-alt"></i>+1(305) 1234-5678</div>
+
+                    <div><i class="fas fa-envelope"></i>hello@example.com</div>
+                    <div><i class="fas fa-map-marker-alt"></i>Main Avenue,987</div>
+
+                    <span><a class="btn _bt-bord_green  btn-lg" href="#" role="button">VIEW MAP</a></span>
+
+                </div>
+
+
+                <div class="various" v-for="(el,index) in generalInfo">
+                    <div class="info-container">
+                        <h5>
+                            {{el.title}}
+                        </h5>
+
+                        <ul>
+                            <li v-for="alpha in generalInfo[index].info">
+                                <i class="fas fa-angle-right"></i>
+                                {{alpha}}
+
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </footer>
+        <!-- /FOOTER SITE  -->
 
 
 
