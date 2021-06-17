@@ -1,3 +1,8 @@
+.s_fourth-top{
+    padding:4.5rem 0;
+}
+            
+            
             // CORPORATE NEWS 
 
 .news{
@@ -56,8 +61,8 @@
 
 
     .photo-news{
-        width: calc(100%/3 - 2rem);
-        margin-right: 3rem;
+        width: calc(100%/3 - 1rem);
+        margin-right: 1.5rem;
         margin-bottom: 2rem;
         height: 300px;
         position: relative;
@@ -117,14 +122,66 @@
         background-size: cover;
         background-position: center;
 
+        display: flex;
+        align-items: center;
+
+        .newsletter-container{
+            width: 70%;
+            margin:0 auto;
+            display: flex;
+            // justify-content: center;
+            justify-content: space-between; 
+
+            .newsletter-info{
+                display: flex;
+                flex-direction: column;
+
+                flex-basis: 50%;
+        
 
 
+                @include pageLink;
+                @include shadow-text(#1C3D43);
 
+                h3{
+                    color: white;
+                    margin-bottom: 0;
+                    padding:1.5rem 0;
+                    font-weight: bolder;
+                }
 
+                p {
+                color: $p-color; 
+                }
 
+                .span-bt{
+                    margin:0;
+                }
 
+            }
 
+            .newsletter-form{
+                justify-content: space-between;
+                flex-basis: 50%;
 
+                input{
+                    width: 60%;
+                    padding: 0.4rem;
+                    border-radius: 5px;
+                    border: 0;
+                    background-color: #e3e7df;
+                }
 
+                #send-email{
+                    color: white;
+                    font-size: 1.1rem;
+                    background-color: #038483;
+                    width: 40%;
+
+                }
+
+            }
+
+            }
 
     }
