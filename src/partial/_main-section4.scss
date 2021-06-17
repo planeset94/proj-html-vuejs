@@ -142,6 +142,7 @@
                 color: $p-color; 
                 font-size: $p-dim;
                 width: 80%;
+                margin-bottom: 0;
                 }
 
                 .span-bt{
@@ -159,13 +160,13 @@
                     padding: 0.4rem;
                     border-radius: 5px;
                     border: 0;
-                    background-color: #e3e7df;
+                    background-color: $p-color;
                 }
 
                 #send-email{
                     color: white;
                     font-size: 1rem;
-                    background-color: #038483;
+                    background-color: $bt-green;
                     width: 40%;
 
                 }

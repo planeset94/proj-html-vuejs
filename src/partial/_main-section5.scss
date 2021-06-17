@@ -1,12 +1,15 @@
 #s_fifth{
+    padding: 5rem 0;
 
     .customer-contact{
         @include pageLink;
         @include shadow-text($shadow2);
+        margin-right: 1.5rem;
 
         p{
             font-size: $p-dim;
             color: $p-color2;
+            margin-bottom: 0;
         }
 
 
@@ -14,65 +17,100 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            padding-top: 3rem;
+
+
 
             [class*="input"]{
-                width: calc(100%/2 - 1rem);
+                width: calc(100%/2 - 0.5rem);
                 border: 0;
                 background-color: #ECECEC;
                 margin-bottom: 1rem;
                 padding: 0.5rem;
                 border-radius: 5px;
-
-              
-          
+                color: $p-color2;
+                font-size: 1rem;
 
             }
+            .more-info p{
+                font-size: 1rem;
+                margin-bottom: 0;
 
+                
 
+            }
+            textarea{
+                flex-basis: 100%;
+                border: 0;
+                background-color: #ECECEC;
+                padding:0.5rem;
+            }
+            #submit{
+                margin-top: 1rem;
+                padding: 0.2rem 1rem;
+                color: white;
+                font-size: 1rem;
+                border:0;
+                border-radius: 5px;
+                background-color: #038483;
+            }
 
             
         }
 
 
-
-
-
-
-
-
-
-
-
-
+    
 
     }
 
 
 
+}
 
 
+.company-contact{
 
+    h6{
+        font-weight: bold;
+        margin-bottom: 0;
+    }
 
+    p{
+        font-size: $p-med-dim;
+        color: $p-color2;
+        margin-bottom: 0;
+        width: 80%;
+        padding-bottom: 20px;
+    }
+    
+    p:first-of-type{
+        padding:20px 0;
+ 
+    }
+    div{
+       color: $bt-green; 
+       font-size: $p-med-dim;
+       margin-top: 10px;
+    }
+    i{
 
+        border-radius: 50%;
+        background-color: $shadow2;
+        color: $bt-green;
+        margin: 0 0.5rem 0.5rem 0;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        vertical-align: middle;
+        text-align: center;
 
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .btn{
+        color: $bt-green;
+        margin-top: 15px;
+        font-size: 1rem;
+    }
 
 
 

@@ -428,6 +428,7 @@ div.info-cube p {
   color: #e3e7df;
   font-size: 0.7rem;
   width: 80%;
+  margin-bottom: 0;
 }
 .s_fourth-bottom .newsletter-container .newsletter-info .span-bt {
   margin: 0;
@@ -450,6 +451,12 @@ div.info-cube p {
   width: 40%;
 }
 
+#s_fifth {
+  padding: 5rem 0;
+}
+#s_fifth .customer-contact {
+  margin-right: 1.5rem;
+}
 #s_fifth .customer-contact a {
   color: #038483;
   text-decoration: none;
@@ -472,17 +479,76 @@ div.info-cube p {
 #s_fifth .customer-contact p {
   font-size: 0.7rem;
   color: #748088;
+  margin-bottom: 0;
 }
 #s_fifth .customer-contact .contact-form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 3rem;
 }
 #s_fifth .customer-contact .contact-form [class*=input] {
-  width: calc(100%/2 - 1rem);
+  width: calc(100%/2 - 0.5rem);
   border: 0;
   background-color: #ECECEC;
   margin-bottom: 1rem;
   padding: 0.5rem;
   border-radius: 5px;
+  color: #748088;
+  font-size: 1rem;
+}
+#s_fifth .customer-contact .contact-form .more-info p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+#s_fifth .customer-contact .contact-form textarea {
+  flex-basis: 100%;
+  border: 0;
+  background-color: #ECECEC;
+  padding: 0.5rem;
+}
+#s_fifth .customer-contact .contact-form #submit {
+  margin-top: 1rem;
+  padding: 0.2rem 1rem;
+  color: white;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: #038483;
+}
+
+.company-contact h6 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.company-contact p {
+  font-size: 0.8rem;
+  color: #748088;
+  margin-bottom: 0;
+  width: 80%;
+  padding-bottom: 20px;
+}
+.company-contact p:first-of-type {
+  padding: 20px 0;
+}
+.company-contact div {
+  color: #038483;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+.company-contact i {
+  border-radius: 50%;
+  background-color: #CCE3DE;
+  color: #038483;
+  margin: 0 0.5rem 0.5rem 0;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+.company-contact .btn {
+  color: #038483;
+  margin-top: 15px;
+  font-size: 1rem;
 }

@@ -166,6 +166,7 @@
 
                     <div class="corporate-service">
                         <div v-for="el in corporateService" class="service">
+                            <!-- GOOGLE ICONS  -->
                             <i class="material-icons" :class="el.rule" style="font-size: 25px;">{{el.emoticon}}</i>
                             <h5>{{el.title}}</h5>
                             <p>{{el.par}}</p>
@@ -254,47 +255,52 @@
 
             <!-- SECTION 5   -->
             <section id="s_fifth">
-                <div class="my_container d-flex">
+                <div class="my_container">
+                    <div class="row">
 
-                    <div class="customer-contact">
-                        <a href="#">send a message</a>
-                        <h3>Get in <span>Touch</span></h3>
-                        <p>
-                            We will responde to your message as soon as possible.
-                        </p>
+                        <div class="customer-contact col-7">
+                            <span class="d-flex flex-column">
+                                <a href="#">send a message</a>
+                                <h3>Get in <span>Touch</span></h3>
+                                <p>
+                                    We will responde to your message as soon as possible.
+                                </p>
+
+                                <form class="contact-form">
+
+                                    <input class="input" type="text" placeholder="Name" required>
+                                    <input class="input" type="email" placeholder="Email" required>
+                                    <input class="input" type="number" placeholder="Phone" required>
+                                    <div class="input  more-info d-flex justify-content-between align-items-center">
+                                        <p>More info</p>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <textarea placeholder="Message" id="" cols="30" rows="5"></textarea>
+                                    <input id="submit" type="submit" value="SEND">
+                                </form>
+                            </span>
+                        </div>
+
+                        <div class="company-contact col-4">
+
+                            <h6>Example Inc.</h6>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Praesent diam lacus, diapibus sed imperdiet consectetur.</p>
+                            <div><i class="fas fa-phone-alt"></i> +1(305) 1234-5678</div>
+
+                            <div><i class="fas fa-envelope"></i>hello@example.com</div>
+                            <div><i class="fas fa-map-marker-alt"></i>Main Avenue,987</div>
+
+                            <span><a class="btn _bt-bord_green  btn-lg" href="#" role="button">VIEW MAP</a></span>
 
 
 
 
-                        <form class="contact-form">
-
-                            <input class="input" type="text" placeholder="Name" required>
-                            <input class="input" type="email" placeholder="Email" required>
-                            <input class="input" type="number" placeholder="Phone" required>
-                            <div class="input more-info">More info
-                                <i class="fas fa-chevron-down"></i>
-                            </div>
-                            <textarea placeholder="Message" id="" cols="30" rows="10"></textarea>
-                            <input id="send-email" type="submit" value="SEND">
 
 
-                        </form>
-
+                        </div>
 
                     </div>
-
-
-
-
-                    <div class="company-contact"></div>
-
-
-
-
-
-
-
-
 
                 </div>
             </section>
