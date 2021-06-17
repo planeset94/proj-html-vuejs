@@ -1,0 +1,83 @@
+#s_fifth{
+
+    .customer-contact{
+        @include pageLink;
+        @include shadow-text($shadow2);
+
+        p{
+            font-size: $p-dim;
+            color: $p-color2;
+        }
+
+
+        .contact-form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            [class*="input"]{
+                width: calc(100%/2 - 1rem);
+                border: 0;
+                background-color: #ECECEC;
+                margin-bottom: 1rem;
+                padding: 0.5rem;
+                border-radius: 5px;
+
+              
+          
+
+            }
+
+
+
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

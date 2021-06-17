@@ -216,7 +216,8 @@
 
                         <div class="photo_news-container">
                             <div v-for="el in corporateNews" class="photo-news">
-                                <img :src=" '/dist/img/' + el.path + '.jpg'    ">
+                                <img :src=" './dist/img/' + el.path + '.jpg'    ">
+
                                 <div class="tendina-news">
                                     <p v-text="el.par"></p>
                                 </div>
@@ -253,7 +254,39 @@
 
             <!-- SECTION 5   -->
             <section id="s_fifth">
-                <div class="my_container">
+                <div class="my_container d-flex">
+
+                    <div class="customer-contact">
+                        <a href="#">send a message</a>
+                        <h3>Get in <span>Touch</span></h3>
+                        <p>
+                            We will responde to your message as soon as possible.
+                        </p>
+
+
+
+
+                        <form class="contact-form">
+
+                            <input class="input" type="text" placeholder="Name" required>
+                            <input class="input" type="email" placeholder="Email" required>
+                            <input class="input" type="number" placeholder="Phone" required>
+                            <div class="input more-info">More info
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <textarea placeholder="Message" id="" cols="30" rows="10"></textarea>
+                            <input id="send-email" type="submit" value="SEND">
+
+
+                        </form>
+
+
+                    </div>
+
+
+
+
+                    <div class="company-contact"></div>
 
 
 
