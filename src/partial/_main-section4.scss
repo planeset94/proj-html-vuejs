@@ -10,16 +10,6 @@
     @include pageLink;
     @include shadow-text($shadow1);
 
-
-
-    h3{
-      
-        margin-bottom: 0;
-        padding-top:1.5rem;
-        font-weight: bolder;
-    }
-
-
     .span-par{
 
 
@@ -145,13 +135,13 @@
 
                 h3{
                     color: white;
-                    margin-bottom: 0;
-                    padding:1.5rem 0;
-                    font-weight: bolder;
+                    
                 }
 
                 p {
                 color: $p-color; 
+                font-size: $p-dim;
+                width: 80%;
                 }
 
                 .span-bt{

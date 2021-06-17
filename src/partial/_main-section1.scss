@@ -50,13 +50,7 @@ div.info-cube{
 padding: 7rem 0 4rem 0;
  @include pageLink;
  @include shadow-text($shadow1);
-
-
-   
-    h3{
-        padding: 1rem 0;
-        font-weight: bold;
-    }       
+    
 
     p{
         font-size: $p-dim;
