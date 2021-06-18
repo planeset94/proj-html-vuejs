@@ -29,17 +29,19 @@
                 padding: 0.5rem;
                 border-radius: 5px;
                 color: $p-color2;
-                font-size: 1rem;
+                font-size: $p-dim
 
             }
             .more-info p{
                 font-size: 1rem;
                 margin-bottom: 0;
+                font-size: $p-dim;
 
                 
 
             }
             textarea{
+                font-size: $p-dim;
                 flex-basis: 100%;
                 border: 0;
                 background-color: #ECECEC;
@@ -78,7 +80,7 @@
 
 
     p{
-        font-size: $p-med-dim;
+        font-size: $p-dim;
         color: $p-color2;
         margin-bottom: 0;
         width: 80%;
