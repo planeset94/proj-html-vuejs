@@ -17,11 +17,12 @@ footer{
 
                 h5{
                     color:$p-color;
+                    font-size: $h5-dim;
                 }
         
 
                 p{
-                    font-size: $p-med-dim;
+                    font-size: $p-dim;
                     color: $p-color;
                     margin-bottom: 0;
                     width: 80%;
@@ -57,11 +58,12 @@ footer{
                 .various{
                     
                     h5{
+                        font-size: $h5-dim;
                         color: white;
                         margin-bottom: 1rem;
                     }
                     .info-container{
-                        color: $p-color;
+                       
                         ul{
                             padding:0;
 
@@ -70,13 +72,16 @@ footer{
                         li{
                         list-style: none;
                         padding-bottom: 5px;
+                        font-size: $p-dim;
+                        color: $p-color;
                         
                             
                         }
                             
                         p{
                             margin:0;
-
+                            font-size: $p-dim;
+                            color: $p-color;
                         }
 
 

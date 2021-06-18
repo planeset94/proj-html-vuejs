@@ -3,7 +3,7 @@
 
 .s_one-top{
     background-color:#e3e7df;
-    padding:6rem 0;
+    padding: 58px 0;
 }
 
 div.indicator{
@@ -16,7 +16,7 @@ div.indicator{
 
 div.info-cube{
     width: calc(100%/3 - 1rem);
-    padding: 1.5rem 2rem;
+    padding: 20px 2rem;
     background-color:white;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -32,6 +32,7 @@ div.info-cube{
      padding:1rem 0;
      margin-bottom: 0;
      font-weight: bolder;
+     font-size: $h5-dim;
     }
 
     p{
@@ -47,7 +48,7 @@ div.info-cube{
 //BOTTOM PART
 
 .col-text{
-padding: 7rem 0 4rem 0;
+padding-top: 3rem;
  @include pageLink;
  @include shadow-text($shadow1);
     
@@ -71,6 +72,7 @@ padding: 7rem 0 4rem 0;
     span{
     padding-left: 0.5rem;
     font-weight: bolder;
+    font-size: $h5-dim;
     
     }
 
@@ -90,7 +92,7 @@ padding: 7rem 0 4rem 0;
 
 
 .col-pic{
-    height: 600px;
+    height: 450px;
  
     img{
         object-fit: cover;

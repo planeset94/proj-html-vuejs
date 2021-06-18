@@ -30,7 +30,7 @@ div.header-top {
   background-color: #4e4d51;
   color: #e3e7df;
   font-weight: lighter;
-  font-size: 8px;
+  font-size: 10px;
 }
 
 .email {
@@ -63,19 +63,19 @@ span i {
   padding-top: 1rem;
 }
 .jumbo nav h5 {
-  font-size: 10px;
+  font-size: 14px;
 }
 .jumbo nav h5 > span {
   border-radius: 15px 0 0 15px;
   background-color: #39c4c666;
   color: #39c4c6;
   padding: 11px 5px 11px 20px;
-  font-size: 10px;
+  font-size: 14px;
 }
 .jumbo nav span.nav-link a {
   text-decoration: none;
   color: #e3e7df;
-  font-size: 10px;
+  font-size: 14px;
   padding-right: 0.5rem;
   text-transform: uppercase;
 }
@@ -113,7 +113,7 @@ span i {
 }
 #jumbo-text p:first-of-type {
   width: 40%;
-  font-size: 9px;
+  font-size: 10px;
   color: #e3e7df;
 }
 #jumbo-text .btn-container span:first-child {
@@ -122,7 +122,7 @@ span i {
 
 .s_one-top {
   background-color: #e3e7df;
-  padding: 6rem 0;
+  padding: 58px 0;
 }
 
 div.indicator {
@@ -133,7 +133,7 @@ div.indicator {
 
 div.info-cube {
   width: calc(100%/3 - 1rem);
-  padding: 1.5rem 2rem;
+  padding: 20px 2rem;
   background-color: white;
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -147,14 +147,15 @@ div.info-cube h5 {
   padding: 1rem 0;
   margin-bottom: 0;
   font-weight: bolder;
+  font-size: 14px;
 }
 div.info-cube p {
-  font-size: 9px;
+  font-size: 10px;
   color: #748088;
 }
 
 .col-text {
-  padding: 7rem 0 4rem 0;
+  padding-top: 3rem;
 }
 .col-text a {
   color: #038483;
@@ -176,7 +177,7 @@ div.info-cube p {
   margin-right: 5px;
 }
 .col-text p {
-  font-size: 9px;
+  font-size: 10px;
   color: #748088;
 }
 .col-text .corporate-values {
@@ -193,15 +194,16 @@ div.info-cube p {
 .col-text .values span {
   padding-left: 0.5rem;
   font-weight: bolder;
+  font-size: 14px;
 }
 .col-text .values p {
-  font-size: 9px;
+  font-size: 10px;
   padding: 1rem 0;
   color: #748088;
 }
 
 .col-pic {
-  height: 600px;
+  height: 450px;
 }
 .col-pic img {
   -o-object-fit: cover;
@@ -230,7 +232,7 @@ div.info-cube p {
 }
 #s_two .service-title .span-par p {
   color: #e3e7df;
-  font-size: 9px;
+  font-size: 10px;
   padding: 1.5rem 0;
   margin-bottom: 0;
   width: 80%;
@@ -260,11 +262,12 @@ div.info-cube p {
   color: #038483;
 }
 #s_two .corporate-service .service h5 {
+  font-size: 14px;
   margin-bottom: 0;
   padding: 0.5rem 0;
 }
 #s_two .corporate-service .service p {
-  font-size: 9px;
+  font-size: 10px;
   padding: 1rem 0;
   margin-bottom: 0;
 }
@@ -302,7 +305,7 @@ div.info-cube p {
   margin-right: 5px;
 }
 #s_third .pricing p {
-  font-size: 9px;
+  font-size: 10px;
   color: #748088;
   width: 60%;
   text-align: center;
@@ -342,7 +345,7 @@ div.info-cube p {
 }
 .news .span-par p {
   color: #748088;
-  font-size: 9px;
+  font-size: 10px;
   padding: 1.5rem 0;
   margin-bottom: 0;
 }
@@ -438,7 +441,7 @@ div.info-cube p {
 }
 .s_fourth-bottom .newsletter-container .newsletter-info p {
   color: #e3e7df;
-  font-size: 9px;
+  font-size: 10px;
   width: 80%;
   margin-bottom: 0;
 }
@@ -489,7 +492,7 @@ div.info-cube p {
   margin-right: 5px;
 }
 #s_fifth .customer-contact p {
-  font-size: 9px;
+  font-size: 10px;
   color: #748088;
   margin-bottom: 0;
 }
@@ -534,7 +537,7 @@ div.info-cube p {
   margin-bottom: 0;
 }
 .company-contact p {
-  font-size: 0.8rem;
+  font-size: 12px;
   color: #748088;
   margin-bottom: 0;
   width: 80%;
@@ -545,7 +548,7 @@ div.info-cube p {
 }
 .company-contact div {
   color: #038483;
-  font-size: 0.8rem;
+  font-size: 12px;
   margin-top: 10px;
 }
 .company-contact i {
@@ -581,9 +584,10 @@ footer div.flex-container .general-info h5 > span {
 }
 footer div.flex-container .general-info h5 {
   color: #e3e7df;
+  font-size: 14px;
 }
 footer div.flex-container .general-info p {
-  font-size: 0.8rem;
+  font-size: 10px;
   color: #e3e7df;
   margin-bottom: 0;
   width: 80%;
@@ -591,7 +595,7 @@ footer div.flex-container .general-info p {
 }
 footer div.flex-container .general-info div {
   color: #e3e7df;
-  font-size: 0.8rem;
+  font-size: 12px;
   margin-top: 10px;
 }
 footer div.flex-container .general-info i {
@@ -606,11 +610,9 @@ footer div.flex-container .general-info .btn {
   font-size: 1rem;
 }
 footer div.flex-container .various h5 {
+  font-size: 14px;
   color: white;
   margin-bottom: 1rem;
-}
-footer div.flex-container .various .info-container {
-  color: #e3e7df;
 }
 footer div.flex-container .various .info-container ul {
   padding: 0;
@@ -618,9 +620,13 @@ footer div.flex-container .various .info-container ul {
 footer div.flex-container .various .info-container li {
   list-style: none;
   padding-bottom: 5px;
+  font-size: 10px;
+  color: #e3e7df;
 }
 footer div.flex-container .various .info-container p {
   margin: 0;
+  font-size: 10px;
+  color: #e3e7df;
 }
 
 .carta {
@@ -635,5 +641,5 @@ footer div.flex-container .various .info-container p {
   display: flex;
   justify-content: space-between;
   color: #e3e7df;
-  font-size: 9px;
+  font-size: 10px;
 }
