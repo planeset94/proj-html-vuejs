@@ -6,7 +6,7 @@
             // CORPORATE NEWS 
 
 .news{
-    
+    padding-bottom: 30px;
     @include pageLink;
     @include shadow-text($shadow1);
 
@@ -21,7 +21,7 @@
         p{
         color: $p-color2;
         font-size:$p-dim;
-        padding: 1.5rem 0;
+        padding: 1rem 0;
         margin-bottom: 0; 
         }
 
@@ -52,14 +52,10 @@
     justify-content: space-around;
     
 
-
-
-
     .photo-news{
-        width: calc(100%/3 - 1rem);
-        margin-right: 1.5rem;
+        width: calc(100%/3 - 2rem);
+        margin-right: 2rem;
         margin-bottom: 2rem;
-        height: 300px;
         position: relative;
    
 
@@ -84,7 +80,7 @@
 
             & p{
                 color: white;
-                font-size: 1rem;
+                font-size: $p-med-dim;
                 font-weight: bold;
                 padding: 0 2rem 2rem;
             }
@@ -165,7 +161,9 @@
                     padding: 0.4rem;
                     border-radius: 5px;
                     border: 0;
-                    background-color: $p-color;
+                
+                    background-color: #e3e7dfa6;
+                    margin-bottom: 1rem;
                 }
 
                 #send-email{

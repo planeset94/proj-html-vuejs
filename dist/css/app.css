@@ -321,6 +321,9 @@ div.info-cube p {
   padding: 4.5rem 0;
 }
 
+.news {
+  padding-bottom: 30px;
+}
 .news a {
   color: #038483;
   text-decoration: none;
@@ -346,7 +349,7 @@ div.info-cube p {
 .news .span-par p {
   color: #748088;
   font-size: 10px;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   margin-bottom: 0;
 }
 .news .span-bt {
@@ -365,10 +368,9 @@ div.info-cube p {
   justify-content: space-around;
 }
 .photo_news-container .photo-news {
-  width: calc(100%/3 - 1rem);
-  margin-right: 1.5rem;
+  width: calc(100%/3 - 2rem);
+  margin-right: 2rem;
   margin-bottom: 2rem;
-  height: 300px;
   position: relative;
 }
 .photo_news-container .photo-news img {
@@ -390,7 +392,7 @@ div.info-cube p {
 }
 .photo_news-container .photo-news .tendina-news p {
   color: white;
-  font-size: 1rem;
+  font-size: 12px;
   font-weight: bold;
   padding: 0 2rem 2rem;
 }
@@ -457,7 +459,8 @@ div.info-cube p {
   padding: 0.4rem;
   border-radius: 5px;
   border: 0;
-  background-color: #e3e7df;
+  background-color: #e3e7dfa6;
+  margin-bottom: 1rem;
 }
 .s_fourth-bottom .newsletter-container .newsletter-form #send-email {
   color: white;
