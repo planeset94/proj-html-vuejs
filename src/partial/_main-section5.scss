@@ -49,9 +49,9 @@
             }
             #submit{
                 margin-top: 1rem;
-                padding: 0.2rem 1rem;
+                padding: 9px 22px;
                 color: white;
-                font-size: 1rem;
+                font-size:$h5-dim;
                 border:0;
                 border-radius: 5px;
                 background-color: #038483;
@@ -84,17 +84,22 @@
         color: $p-color2;
         margin-bottom: 0;
         width: 80%;
-        padding-bottom: 20px;
+      
     }
     
     p:first-of-type{
-        padding:20px 0;
+        padding:17px 0;
  
     }
+
+    p:last-of-type{
+        padding-bottom: 30px;
+    }
+
     div{
        color: $bt-green; 
        font-size: $p-med-dim;
-       margin-top: 10px;
+      
     }
     i{
 
@@ -113,7 +118,7 @@
     .btn{
         color: $bt-green;
         margin-top: 15px;
-        font-size: 1rem;
+        font-size: $h5-dim;
     }
 
 

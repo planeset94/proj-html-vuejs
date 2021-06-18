@@ -1,6 +1,8 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
+    "/img/about-3.jpg": "/img/about-3.jpg",
+    "/img/bg-1.jpg": "/img/bg-1.jpg",
     "/img/hero-image.png": "/img/hero-image.png",
     "/img/hover-button1.png": "/img/hover-button1.png",
     "/img/hover-button2.png": "/img/hover-button2.png",
@@ -8,8 +10,6 @@
     "/img/hover-card2.png": "/img/hover-card2.png",
     "/img/hover-card3.png": "/img/hover-card3.png",
     "/img/hover-card4.png": "/img/hover-card4.png",
-    "/img/about-3.jpg": "/img/about-3.jpg",
-    "/img/bg-1.jpg": "/img/bg-1.jpg",
     "/img/image (1).png": "/img/image (1).png",
     "/img/image (2).png": "/img/image (2).png",
     "/img/image.png": "/img/image.png",
