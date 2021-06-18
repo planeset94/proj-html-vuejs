@@ -582,7 +582,7 @@ footer {
   position: relative;
 }
 footer div.flex-container .general-info {
-  flex-basis: 25%;
+  flex-basis: 35%;
 }
 footer div.flex-container .general-info h5 > span {
   border-radius: 15px 0 0 15px;
