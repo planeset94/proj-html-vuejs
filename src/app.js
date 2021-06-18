@@ -52,6 +52,26 @@ const app = new Vue(
                     par: 'Achieving maximum impact and value from investments in finance and supply chain.'
 
                 },
+                // {
+                //     emoticon: 'fas fa-chart-pie',
+                //     title: 'Core Business',
+                //     par: 'It takes innovative approaches to transform, modernize, and run existing platforms.'
+
+                // },
+
+
+                // {
+                //     emoticon: 'fas fa-tachometer-alt',
+                //     title: 'Performance',
+                //     par: 'Achieving maximum impact and value from investments in finance and supply chain.'
+
+                // },
+                // {
+                //     emoticon: 'fas fa-tachometer-alt',
+                //     title: 'Performance',
+                //     par: 'Achieving maximum impact and value from investments in finance and supply chain.'
+
+                // },
 
 
 
@@ -84,6 +104,18 @@ const app = new Vue(
                     par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
 
                 },
+                // {
+                //     emoticon: 'far fa-edit',
+                //     title: 'Certificate',
+                //     par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+
+                // },
+                // {
+                //     emoticon: 'fas fa-graduation-cap',
+                //     title: 'Expertise',
+                //     par: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+
+                // },
 
 
 
