@@ -9,7 +9,7 @@ background-color: $shark;
         h3{
             color: white;
             margin-bottom: 0;
-            padding-top:1.5rem;
+            padding-top:1rem;
         }
 
 
@@ -19,7 +19,7 @@ background-color: $shark;
             p{
             color: $p-color;
             font-size:$p-dim;
-            padding: 1.5rem 0;
+            padding: 1rem 0;
             margin-bottom: 0; 
             width: 80%; 
             }
@@ -58,7 +58,7 @@ background-color: $shark;
         & .service{
             color: white;
             background-color: #232727;
-            padding: 2rem;
+            padding: 20px;
             margin-bottom: 1rem;
             width: calc(100% /3 - 1rem);
 
